@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "Minecraft bot",
+  "main": "web-gui-integrated.js",
+  "scripts": {
+    "start": "node --no-warnings web-gui-integrated.js",
+    "bot": "node --no-warnings bot.js",
+    "web": "node --no-warnings web-gui-integrated.js",
+    "test": "echo \"Test\""
+  },
+  "dependencies": {
+    "electron": "^39.1.2",
+    "express": "^5.1.0",
+    "mineflayer": "^4.33.0",
+    "mineflayer-armor-manager": "^2.0.1",
+    "ws": "^8.18.3"
+  }
+}
